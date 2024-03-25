@@ -17,12 +17,12 @@ while(True):
 	choice = int(input("Pick a number "))
 	if(choice == 1):
 		
-		# Adding letters to possible characters
-		characterList += string.ascii_letters
+		# Adding letters to possible digits
+		characterList += string.digits
 	elif(choice == 2):
 		
 		# Adding digits to possible characters
-		characterList += string.digits
+		characterList += string.ascii_letters
 	elif(choice == 3):
 		
 		# Adding special characters to possible
