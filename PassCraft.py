@@ -25,3 +25,12 @@ def main():
                 break
         except ValueError:
             print("Please enter a valid integer.")
+
+    choices = input("Enter your choices separated by spaces: ").split()
+
+    for _ in range(num_passwords):
+        password = generate_password(length, choices)
+        print("Generated password:", password)
+
+if __name__ == "__main__":
+    main()
