@@ -7,3 +7,4 @@
 #### The program will ask for user input about how long they want their random password to be and if they want any numbers or special characters in it. The program will give out a list of what you want in your password. For example, the menu shows if you want only letters, letters and numbers, or letters, numbers, and special characters.
 
 ##### Source: https://www.geeksforgeeks.org/create-a-random-password-generator-using-python/?ref=header_search
+##### Source: https://stackoverflow.com/questions/419163/what-does-if-name-main-do
