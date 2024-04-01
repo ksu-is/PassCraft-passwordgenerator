@@ -47,3 +47,5 @@ def main():
     for i in range(num_passwords):
         password = generate_password(length, choices)
         print("Generated password:", password)
+if __name__ == "__main__":
+    main()
