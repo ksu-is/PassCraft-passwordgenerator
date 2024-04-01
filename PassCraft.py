@@ -42,11 +42,4 @@ def main():
         3. Special characters
         4. Exit (You can choose multiple options separated by spaces)''')
 
-    choices = input("Enter your choices separated by spaces: ").split()
 
-    for _ in range(num_passwords):
-        password = generate_password(length, choices)
-        print("Generated password:", password)
-
-if __name__ == "__main__":
-    main()
