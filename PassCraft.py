@@ -26,6 +26,22 @@ def main():
         except ValueError:
             print("Please enter a valid integer.")
 
+    while True:
+        try:
+            length = int(input("Enter password length: "))
+            if length <= 0:
+                print("Password length should be greater than 0.")
+            else:
+                break
+        except ValueError:
+            print("Please enter a valid integer.")
+
+    print('''Choose character set for password:
+        1. Digits
+        2. Letters
+        3. Special characters
+        4. Exit (You can choose multiple options separated by spaces)''')
+
     choices = input("Enter your choices separated by spaces: ").split()
 
     for _ in range(num_passwords):
