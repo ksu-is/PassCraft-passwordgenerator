@@ -42,4 +42,4 @@ def main():
         3. Special characters
         4. Exit (You can choose multiple options separated by spaces)''')
 
-
+    choices = input("Enter your choices separated by spaces: ").split()
